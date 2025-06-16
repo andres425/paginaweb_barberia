@@ -1,3 +1,4 @@
+
 # 💈 Proyecto: Página Web para Barbería
 
 Este proyecto consiste en el desarrollo de una página web interactiva para una barbería, que permite a los usuarios reservar citas en línea de forma fácil y rápida. Incluye una interfaz moderna, animaciones, validaciones y funcionalidad completa en el navegador y servidor.
@@ -16,10 +17,11 @@ Este proyecto consiste en el desarrollo de una página web interactiva para una 
 
 ## 🎨 Diseño y estilos visuales
 
-🎨 Paleta de colores
+### 🎨 Paleta de colores
 
 Los colores se definieron en el archivo CSS con variables globales, facilitando su reutilización y consistencia visual:
 
+```css
 :root {
   --color-principal:         #d89925;  /* Dorado fuerte */
   --color-secundario:        #222;     /* Gris oscuro */
@@ -31,7 +33,7 @@ Los colores se definieron en el archivo CSS con variables globales, facilitando 
   --color-texto-secundario: #666;     /* Texto más tenue */
   --color-formulario:        #d0cccc;  /* Fondo del formulario */
 }
-
+```
 
 ### 📐 Tipografía y Estética
 
@@ -51,25 +53,32 @@ Los colores se definieron en el archivo CSS con variables globales, facilitando 
 
 ---
 
-## 📁 Estructura del Proyecto
+### 📁 Estructura del Proyecto
 
+<details>
+<summary>Haz clic para desplegar</summary>
 
+```plaintext
 BARBERIA/
-├── assets/               # Imágenes del sitio web
+├── activos/                  # Imágenes del sitio web
 │   ├── imagen1.png
 │   ├── imagen2.png
 │   └── ...
 ├── css/
-│   └── estilos.css       # Estilos personalizados del sitio
+│   └── estilos.css           # Estilos personalizados del sitio
 ├── js/
-│   └── script.js         # Lógica frontend: validaciones y envío del formulari
-├── index.html            # Página principal del sitio web
-├── server.js             # Servidor Express para manejar reservas
-├── reservas.json         # Archivo donde se almacenan las reservas
-├── package.json          # Dependencias y configuración del proyecto
-├── package-lock.json     # Versión exacta de dependencias
-└── README.md             # Descripción del proyecto
+│   └── script.js             # Lógica frontend: validaciones y envío del formulario
+├── index.html               # Página principal del sitio web
+├── server.js                # Servidor Express para gestionar reservas
+├── reservas.json            # Archivo donde se almacenan las reservas
+├── paquete.json             # Dependencias y configuración del proyecto
+├── package-lock.json        # Versión exacta de dependencias
+└── README.md                # Descripción del proyecto
+```
 
+</details>
+
+---
 
 ## ⚙ Tecnologías utilizadas
 
@@ -83,28 +92,28 @@ BARBERIA/
 
 ### 1. Clonar el repositorio
 
-bash
+```bash
 git clone https://github.com/andres425/paginaweb_barberia.git
 cd barberia
-
+```
 
 ### 2. Instalar dependencias del servidor
 
-bash
+```bash
 npm install
-
+```
 
 ### 3. Ejecutar servidor
 
-bash
+```bash
 node server.js
+```
 
-
-El servidor escuchará en http://localhost:3000 y estará listo para recibir reservas vía POST.
+El servidor escuchará en [http://localhost:3000](http://localhost:3000) y estará listo para recibir reservas vía POST.
 
 ### 4. Abrir la página
 
-Abre el archivo index.html directamente en tu navegador para visualizar la interfaz.
+Abre el archivo `index.html` directamente en tu navegador para visualizar la interfaz.
 
 ---
 
