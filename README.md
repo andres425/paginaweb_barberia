@@ -91,7 +91,7 @@ BARBERIA/
 ### 1. Clonar el repositorio
 
 bash
-git clone https://github.com/tu-usuario/barberia.git
+git clone https://github.com/andres425/paginaweb_barberia.git
 cd barberia
 
 
