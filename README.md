@@ -16,21 +16,20 @@ Este proyecto consiste en el desarrollo de una página web interactiva para una 
 
 ## 🎨 Diseño y estilos visuales
 
-### 🎨 Paleta de Colores
+🎨 Paleta de colores
 
 Los colores se definieron en el archivo CSS con variables globales, facilitando su reutilización y consistencia visual:
 
-css
 :root {
-  --color-principal: #d89925;        /* Dorado fuerte */
-  --color-secundario: #222;          /* Gris oscuro */
-  --color-fondo: #eee8e8;            /* Fondo claro */
-  --color-claro: #f5f5f5;            /* Gris muy claro */
-  --color-hover: #ffffff;            /* Blanco */
-  --color-oscuro: #2c2c2c;           /* Casi negro */
-  --color-texto: #333;               /* Texto principal */
-  --color-texto-secundario: #666;    /* Texto más tenue */
-  --color-formulario: #d0cccc;       /* Fondo del formulario */
+  --color-principal:         #d89925;  /* Dorado fuerte */
+  --color-secundario:        #222;     /* Gris oscuro */
+  --color-fondo:             #eee8e8;  /* Fondo claro */
+  --color-claro:             #f5f5f5;  /* Gris muy claro */
+  --color-hover:             #ffffff;  /* Blanco */
+  --color-oscuro:            #2c2c2c;  /* Casi negro */
+  --color-texto:             #333;     /* Texto principal */
+  --color-texto-secundario: #666;     /* Texto más tenue */
+  --color-formulario:        #d0cccc;  /* Fondo del formulario */
 }
 
 
@@ -56,18 +55,14 @@ css
 
 
 BARBERIA/
-│
 ├── assets/               # Imágenes del sitio web
 │   ├── imagen1.png
 │   ├── imagen2.png
 │   └── ...
-│
 ├── css/
-│   └── styles.css        # Estilos personalizados del sitio
-│
+│   └── estilos.css       # Estilos personalizados del sitio
 ├── js/
-│   └── script.js         # Lógica frontend: validaciones y envío del formulario
-│
+│   └── script.js         # Lógica frontend: validaciones y envío del formulari
 ├── index.html            # Página principal del sitio web
 ├── server.js             # Servidor Express para manejar reservas
 ├── reservas.json         # Archivo donde se almacenan las reservas
@@ -75,8 +70,6 @@ BARBERIA/
 ├── package-lock.json     # Versión exacta de dependencias
 └── README.md             # Descripción del proyecto
 
-
----
 
 ## ⚙ Tecnologías utilizadas
 
